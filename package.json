@@ -1,11 +1,14 @@
 {
   "name": "stock-quote-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fetch world wide stock data from CLI",
   "main": "app.js",
   "scripts": {},
   "author": "Ankit Prakash <ankitprakash128@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "StockQuote": "./app.js"
+  },
   "keywords": ["stocks" ,
       "finance",
       "quote",
