@@ -1,6 +1,6 @@
 {
   "name": "stock-quote-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fetch world wide stock data from CLI",
   "main": "app.js",
   "scripts": {},
