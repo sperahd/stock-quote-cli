@@ -13,7 +13,9 @@ stockQuote.getQuote(userArgs[2], userArgs[3])
 })
 .catch((reject) => {
     if(reject === 404) {
-        console.log(`Wrong Scrip id ${userArgs[2]} or incorrect exchange ${userArgs[3]}}`);
+        console.log(`Wrong Scrip id ${userArgs[2]} or incorrect exchange ${userArgs[3]}`);
+    } else {
+        console.log(reject);
     }
 });
 
