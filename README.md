@@ -1,5 +1,5 @@
 # stock-quote-cli
-Fetch world wide stock data from CLI
+Fetch world wide stock data from CLI using yahoo finance apis.
 
 ## HOW-TO
 
