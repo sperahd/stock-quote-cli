@@ -3,8 +3,8 @@
 const userArgs = process.argv;
 const stockQuote = require('stock-quote');
 if(userArgs.length < 3) {
-    console.log('USAGE: node app.js <scrip_id> [exchange]');
-    console.log('Check https://github.com/sperahd/stock-quote-cli/blob/master/README.md for details');
+    console.log('USAGE: node app.js <scrip_id> [exchange]\n');
+    console.log('Check https://github.com/sperahd/stock-quote-cli#README.md for details\n');
 }
 
 stockQuote.getQuote(userArgs[2], userArgs[3])
@@ -18,4 +18,3 @@ stockQuote.getQuote(userArgs[2], userArgs[3])
         console.log(reject);
     }
 });
-
