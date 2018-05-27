@@ -1,6 +1,6 @@
 {
   "name": "stock-quote-cli",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Fetch world wide stock data from CLI",
   "main": "app.js",
   "scripts": {},
@@ -9,13 +9,14 @@
   "bin": {
     "StockQuote": "./app.js"
   },
-  "keywords": ["stocks" ,
-      "finance",
-      "quote",
-      "cli",
-      "yahoo",
-      "price",
-      "stock"
+  "keywords": [
+    "stocks",
+    "finance",
+    "quote",
+    "cli",
+    "yahoo",
+    "price",
+    "stock"
   ],
   "dependencies": {
     "stock-quote": "^1.0.0"
