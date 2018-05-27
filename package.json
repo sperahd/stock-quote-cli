@@ -6,6 +6,11 @@
   "scripts": {},
   "author": "Ankit Prakash <ankitprakash128@gmail.com>",
   "license": "MIT",
+  "keywords": ["stocks" ,
+      "finance",
+      "quote",
+      "cli"
+  ],
   "dependencies": {
     "stock-quote": "^1.0.0"
   }
