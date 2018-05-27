@@ -1,18 +1,25 @@
 # stock-quote-cli
 Fetch world wide stock data from CLI using yahoo finance apis.
 
+## Install
+
+```
+npm i -g stock-quote-clie
+```
+
+
 ## HOW-TO
 
 For stocks listed on NYSE
 
 ```
-node app.js <STOCK_ID>
+StockQuote <STOCK_ID>
 ```
 
 For stocks listed elsewhere
 
 ```
-node app.js <STOCK_ID> <EXCHANGE_EXTENSION>
+StockQuote <STOCK_ID> <EXCHANGE_EXTENSION>
 ```
 
 ## NOTE
