@@ -4,7 +4,7 @@ Fetch world wide stock data from CLI using yahoo finance apis.
 ## Install
 
 ```
-npm i -g stock-quote-clie
+npm i -g stock-quote-cli
 ```
 
 
